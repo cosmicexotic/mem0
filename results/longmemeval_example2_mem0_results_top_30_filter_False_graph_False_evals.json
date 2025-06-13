@@ -1,0 +1,24 @@
+{
+    "1": [
+        {
+            "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+            "answer": "The information provided is not enough. You did not mention how much will the bus take.",
+            "response": "$60 taxi fare",
+            "category": "multi-session",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        }
+    ],
+    "0": [
+        {
+            "question": "What was the first issue I had with my new car after its first service?",
+            "answer": "GPS system not functioning correctly",
+            "response": "GPS system issue on March 22.",
+            "category": "temporal-reasoning",
+            "bleu_score": 0.2857142857142857,
+            "f1_score": 0.3636363636363636,
+            "llm_score": 1
+        }
+    ]
+}

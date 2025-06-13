@@ -2,8 +2,15 @@ import json
 
 import pandas as pd
 
+# add a parameter to specify the input file
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--input_file", type=str, default="evaluation_metrics.json")
+args = parser.parse_args()  
+
 # Load the evaluation metrics data
-with open("evaluation_metrics.json", "r") as f:
+with open(args.input_file, "r") as f:
     data = json.load(f)
 
 # Flatten the data into a list of question items
@@ -14,8 +21,9 @@ for key in data:
 # Convert to DataFrame
 df = pd.DataFrame(all_items)
 
-# Convert category to numeric type
-df["category"] = pd.to_numeric(df["category"])
+# if "longmemeeval" not in args.input_file:
+#     # Convert category to numeric type
+#     df["category"] = pd.to_numeric(df["category"])
 
 # Calculate mean scores by category
 result = df.groupby("category").agg({"bleu_score": "mean", "f1_score": "mean", "llm_score": "mean"}).round(4)

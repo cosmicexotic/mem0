@@ -1,0 +1,373 @@
+{
+    "0": [
+        {
+            "question": "When did Caroline go to the LGBTQ support group?",
+            "answer": "7 May 2023",
+            "response": "8 May, 2023",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Melanie paint a sunrise?",
+            "answer": "2022",
+            "response": "2022",
+            "category": "2",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What fields would Caroline be likely to pursue in her educaton?",
+            "answer": "Psychology, counseling certification",
+            "response": "Counseling or mental health.",
+            "category": "3",
+            "bleu_score": 0.2,
+            "f1_score": 0.28571428571428575,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Caroline research?",
+            "answer": "Adoption agencies",
+            "response": "Career options",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What is Caroline's identity?",
+            "answer": "Transgender woman",
+            "response": "Caroline's name is Caroline.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Melanie run a charity race?",
+            "answer": "The sunday before 25 May 2023",
+            "response": "20 May 2023",
+            "category": "2",
+            "bleu_score": 0.24525296078096154,
+            "f1_score": 0.4444444444444444,
+            "llm_score": 1
+        },
+        {
+            "question": "When is Melanie planning on going camping?",
+            "answer": "June 2023",
+            "response": "27 June 2023",
+            "category": "2",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "What is Caroline's relationship status?",
+            "answer": "Single",
+            "response": "No information available.",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Caroline give a speech at a school?",
+            "answer": "The week before 9 June 2023",
+            "response": "No evidence found.",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Caroline meet up with her friends, family, and mentors?",
+            "answer": "The week before 9 June 2023",
+            "response": "No specific date mentioned.",
+            "category": "2",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How long has Caroline had her current group of friends for?",
+            "answer": "4 years",
+            "response": "Four years.",
+            "category": "2",
+            "bleu_score": 0.3333333333333333,
+            "f1_score": 0.5,
+            "llm_score": 1
+        },
+        {
+            "question": "Where did Caroline move from 4 years ago?",
+            "answer": "Sweden",
+            "response": "Home country",
+            "category": "1",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How long ago was Caroline's 18th birthday?",
+            "answer": "10 years ago",
+            "response": "Caroline's 18th birthday was ten years ago.",
+            "category": "2",
+            "bleu_score": 0.2222222222222222,
+            "f1_score": 0.4,
+            "llm_score": 1
+        },
+        {
+            "question": "What career path has Caroline decided to persue?",
+            "answer": "counseling or mental health for Transgender people",
+            "response": "Counseling or mental health.",
+            "category": "1",
+            "bleu_score": 0.5362560368285115,
+            "f1_score": 0.7272727272727273,
+            "llm_score": 0
+        },
+        {
+            "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+            "answer": "Likely no",
+            "response": "No evidence found.",
+            "category": "3",
+            "bleu_score": 0.25,
+            "f1_score": 0.4,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Melanie sign up for a pottery class?",
+            "answer": "2 July 2023",
+            "response": "3 July, 2023",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.6666666666666666,
+            "llm_score": 0
+        },
+        {
+            "question": "When is Caroline going to the transgender conference?",
+            "answer": "July 2023",
+            "response": "July 2023",
+            "category": "2",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Would Melanie be considered a member of the LGBTQ community?",
+            "answer": "Likely no, she does not refer to herself as part of it",
+            "response": "Yes, she is part of it.",
+            "category": "3",
+            "bleu_score": 0.3345383928243689,
+            "f1_score": 0.4444444444444444,
+            "llm_score": 0
+        },
+        {
+            "question": "When did Melanie go camping in June?",
+            "answer": "The week before 27 June 2023",
+            "response": "Last week, June 2023.",
+            "category": "2",
+            "bleu_score": 0.5,
+            "f1_score": 0.6,
+            "llm_score": 1
+        },
+        {
+            "question": "When did Caroline go to a pride parade during the summer?",
+            "answer": "The week before 3 July 2023",
+            "response": "Caroline went to a pride parade on 26 June 2023.",
+            "category": "2",
+            "bleu_score": 0.0909090909090909,
+            "f1_score": 0.125,
+            "llm_score": 1
+        },
+        {
+            "question": "Would Melanie be considered an ally to the transgender community?",
+            "answer": "Yes, she is supportive",
+            "response": "Yes, she supports trans people.",
+            "category": "3",
+            "bleu_score": 0.42857142857142855,
+            "f1_score": 0.4444444444444445,
+            "llm_score": 1
+        },
+        {
+            "question": "What did the charity race raise awareness for?",
+            "answer": "mental health",
+            "response": "Mental health awareness",
+            "category": "4",
+            "bleu_score": 0.6666666666666666,
+            "f1_score": 0.8,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Melanie realize after the charity race?",
+            "answer": "self-care is important",
+            "response": "Found the charity race rewarding.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How does Melanie prioritize self-care?",
+            "answer": "by carving out some me-time each day for activities like running, reading, or playing the violin",
+            "response": "Looking after herself helps family.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What are Caroline's plans for the summer?",
+            "answer": "researching adoption agencies",
+            "response": "Learning the piano.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What type of individuals does the adoption agency Caroline is considering support?",
+            "answer": "LGBTQ+ individuals",
+            "response": "LGBTQ+ individuals",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "Why did Caroline choose the adoption agency?",
+            "answer": "because of their inclusivity and support for LGBTQ+ individuals",
+            "response": "They help LGBTQ+ folks with adoption.",
+            "category": "4",
+            "bleu_score": 0.10735389901075512,
+            "f1_score": 0.13333333333333333,
+            "llm_score": 1
+        },
+        {
+            "question": "What is Caroline excited about in the adoption process?",
+            "answer": "creating a family for kids who need one",
+            "response": "Creating a family for kids.",
+            "category": "4",
+            "bleu_score": 0.5971094254781577,
+            "f1_score": 0.7692307692307693,
+            "llm_score": 1
+        },
+        {
+            "question": "What does Melanie think about Caroline's decision to adopt?",
+            "answer": "she thinks Caroline is doing something amazing and will be an awesome mom",
+            "response": "Supportive of adoption decision.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "How long have Mel and her husband been married?",
+            "answer": "Mel and her husband have been married for 5 years.",
+            "response": "Five years.",
+            "category": "4",
+            "bleu_score": 0.04632230081520103,
+            "f1_score": 0.16666666666666669,
+            "llm_score": 1
+        },
+        {
+            "question": "What does Caroline's necklace symbolize?",
+            "answer": "love, faith, and strength",
+            "response": "Love, faith, and strength.",
+            "category": "4",
+            "bleu_score": 0.8571428571428571,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What country is Caroline's grandma from?",
+            "answer": "Sweden",
+            "response": "No information available.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        },
+        {
+            "question": "What was grandma's gift to Caroline?",
+            "answer": "necklace",
+            "response": "Necklace from grandma.",
+            "category": "4",
+            "bleu_score": 0.25,
+            "f1_score": 0.5,
+            "llm_score": 1
+        },
+        {
+            "question": "What is Melanie's hand-painted bowl a reminder of?",
+            "answer": "art and self-expression",
+            "response": "Art and self-expression",
+            "category": "4",
+            "bleu_score": 1.0,
+            "f1_score": 1.0,
+            "llm_score": 1
+        },
+        {
+            "question": "What did Melanie and her family do while camping?",
+            "answer": "explored nature, roasted marshmallows, and went on a hike",
+            "response": "Roasted marshmallows and hiked.",
+            "category": "4",
+            "bleu_score": 0.1807165271473212,
+            "f1_score": 0.46153846153846156,
+            "llm_score": 1
+        },
+        {
+            "question": "What kind of counseling and mental health services is Caroline interested in pursuing?",
+            "answer": "working with trans people, helping them accept themselves and supporting their mental health",
+            "response": "Counseling and mental health career.",
+            "category": "4",
+            "bleu_score": 0.13179856905786336,
+            "f1_score": 0.33333333333333337,
+            "llm_score": 0
+        },
+        {
+            "question": "What workshop did Caroline attend recently?",
+            "answer": "LGBTQ+ counseling workshop",
+            "response": "Enlightening workshop on 27 June 2023.",
+            "category": "4",
+            "bleu_score": 0.14285714285714285,
+            "f1_score": 0.2222222222222222,
+            "llm_score": 0
+        },
+        {
+            "question": "What was discussed in the LGBTQ+ counseling workshop?",
+            "answer": "therapeutic methods and how to best work with trans people",
+            "response": "Therapeutic methods for trans people.",
+            "category": "4",
+            "bleu_score": 0.3422780793550613,
+            "f1_score": 0.5333333333333333,
+            "llm_score": 1
+        },
+        {
+            "question": "What motivated Caroline to pursue counseling?",
+            "answer": "her own journey and the support she received, and how counseling improved her life",
+            "response": "Support group gave her courage.",
+            "category": "4",
+            "bleu_score": 0.0743767200494766,
+            "f1_score": 0.23529411764705882,
+            "llm_score": 0
+        },
+        {
+            "question": "What kind of place does Caroline want to create for people?",
+            "answer": "a safe and inviting place for people to grow",
+            "response": "Safe and inviting place.",
+            "category": "4",
+            "bleu_score": 0.35946317129377725,
+            "f1_score": 0.6153846153846153,
+            "llm_score": 1
+        },
+        {
+            "question": "Did Melanie make the black and white bowl in the photo?",
+            "answer": "Yes",
+            "response": "No evidence of a black and white bowl.",
+            "category": "4",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        }
+    ]
+}

@@ -1,0 +1,2912 @@
+{
+    "0": [
+        {
+            "question": "When did Caroline go to the LGBTQ support group?",
+            "answer": "7 May 2023",
+            "category": 2,
+            "evidence": [
+                "D1:3"
+            ],
+            "response": "8 May, 2023",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Caroline attended an LGBTQ+ pride parade last week",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.72
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.65
+                },
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.64
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline attended a LGBTQ support group",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.89
+                },
+                {
+                    "memory": "Caroline is going to a transgender conference this month",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.66
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.65
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 1.0874297618865967,
+            "speaker_2_memory_time": 0.3017280101776123,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 1.6205487251281738
+        },
+        {
+            "question": "When did Melanie paint a sunrise?",
+            "answer": 2022,
+            "category": 2,
+            "evidence": [
+                "D1:12"
+            ],
+            "response": "2022",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "User appreciates Melanie's painting",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.59
+                },
+                {
+                    "memory": "Melanie enjoys painting as a way to express feelings and get creative",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Melanie finds painting a great way to relax after a long day",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.54
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User painted a lake sunrise last year",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.58
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.4
+                },
+                {
+                    "memory": "User finds painting a great way to relax after a long day",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.32
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.29964613914489746,
+            "speaker_2_memory_time": 0.3033170700073242,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.6684417724609375
+        },
+        {
+            "question": "What fields would Caroline be likely to pursue in her educaton?",
+            "answer": "Psychology, counseling certification",
+            "category": 3,
+            "evidence": [
+                "D1:9",
+                "D1:11"
+            ],
+            "response": "Counseling or mental health.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.47
+                },
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.44
+                },
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.41
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.67
+                },
+                {
+                    "memory": "Caroline is checking out career options",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.63
+                },
+                {
+                    "memory": "User supports Caroline's interest in counseling or working in mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.55
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.29834604263305664,
+            "speaker_2_memory_time": 0.3005640506744385,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7729201316833496
+        },
+        {
+            "question": "What did Caroline research?",
+            "answer": "Adoption agencies",
+            "category": 1,
+            "evidence": [
+                "D2:8"
+            ],
+            "response": "Career options",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.47
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.44
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.55
+                },
+                {
+                    "memory": "Caroline is checking out career options",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.54
+                },
+                {
+                    "memory": "Caroline is creating a family for kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.53
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.2934231758117676,
+            "speaker_2_memory_time": 0.3010072708129883,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.6540851593017578
+        },
+        {
+            "question": "What is Caroline's identity?",
+            "answer": "Transgender woman",
+            "category": 1,
+            "evidence": [
+                "D1:5"
+            ],
+            "response": "Caroline's name is Caroline.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.68
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.52
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User is communicating with Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.64
+                },
+                {
+                    "memory": "User has a friend named Caroline",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.63
+                },
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.57
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3006410598754883,
+            "speaker_2_memory_time": 0.30706095695495605,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.8489546775817871
+        },
+        {
+            "question": "When did Melanie run a charity race?",
+            "answer": "The sunday before 25 May 2023",
+            "category": 2,
+            "evidence": [
+                "D2:1"
+            ],
+            "response": "20 May 2023",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Ran a charity race for mental health last Saturday",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.6
+                },
+                {
+                    "memory": "Finds participating in charity races rewarding",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.47
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Ran a charity race for mental health last Saturday",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.6
+                },
+                {
+                    "memory": "Found the charity race rewarding",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.42
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3547999858856201,
+            "speaker_2_memory_time": 0.30582308769226074,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7310550212860107
+        },
+        {
+            "question": "When is Melanie planning on going camping?",
+            "answer": "June 2023",
+            "category": 2,
+            "evidence": [
+                "D2:7"
+            ],
+            "response": "27 June 2023",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Melanie explored nature, roasted marshmallows around a campfire, and went on a hike with family",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.64
+                },
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Melanie has 2 younger kids who love nature",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.52
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User took their family camping in the mountains last week",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.46
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.44
+                },
+                {
+                    "memory": "Caroline feels hopeful and optimistic about her plans",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.33
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3120288848876953,
+            "speaker_2_memory_time": 0.3252699375152588,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7669439315795898
+        },
+        {
+            "question": "What is Caroline's relationship status?",
+            "answer": "Single",
+            "category": 1,
+            "evidence": [
+                "D3:13",
+                "D2:14"
+            ],
+            "response": "No information available.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.59
+                },
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.51
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User is communicating with Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.64
+                },
+                {
+                    "memory": "User has a friend named Caroline",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.61
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3065791130065918,
+            "speaker_2_memory_time": 0.30209875106811523,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 1.2526860237121582
+        },
+        {
+            "question": "When did Caroline give a speech at a school?",
+            "answer": "The week before 9 June 2023",
+            "category": 2,
+            "evidence": [
+                "D3:1"
+            ],
+            "response": "No evidence found.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Caroline attended an LGBTQ+ pride parade last week",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.46
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.45
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Caroline attended a LGBTQ support group",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Caroline wants to learn more about advocacy",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.5
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3013191223144531,
+            "speaker_2_memory_time": 0.30078983306884766,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 2.962783098220825
+        },
+        {
+            "question": "When did Caroline meet up with her friends, family, and mentors?",
+            "answer": "The week before 9 June 2023",
+            "category": 2,
+            "evidence": [
+                "D3:11"
+            ],
+            "response": "No specific date mentioned.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Caroline attended an LGBTQ+ pride parade last week",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.5
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is excited to meet other people in the community",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "Caroline attended a LGBTQ support group",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.58
+                },
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.57
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3170650005340576,
+            "speaker_2_memory_time": 0.3067188262939453,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7230489253997803
+        },
+        {
+            "question": "How long has Caroline had her current group of friends for?",
+            "answer": "4 years",
+            "category": 2,
+            "evidence": [
+                "D3:13"
+            ],
+            "response": "Four years.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Has known friends for 4 years",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.55
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.5
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.55
+                },
+                {
+                    "memory": "User has a friend named Caroline",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "Caroline attended a LGBTQ support group",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.51
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30643415451049805,
+            "speaker_2_memory_time": 0.3228127956390381,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.6695611476898193
+        },
+        {
+            "question": "Where did Caroline move from 4 years ago?",
+            "answer": "Sweden",
+            "category": 1,
+            "evidence": [
+                "D3:13",
+                "D4:3"
+            ],
+            "response": "Home country",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Moved from home country 4 years ago",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.49
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.58
+                },
+                {
+                    "memory": "Caroline is excited to meet other people in the community",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "Caroline is going to a transgender conference this month",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.51
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.31003499031066895,
+            "speaker_2_memory_time": 0.29961395263671875,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.78125
+        },
+        {
+            "question": "How long ago was Caroline's 18th birthday?",
+            "answer": "10 years ago",
+            "category": 2,
+            "evidence": [
+                "D4:5"
+            ],
+            "response": "Caroline's 18th birthday was ten years ago.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Caroline attended an LGBTQ+ pride parade last week",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.46
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline has a hand-painted bowl made by a friend for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "User congratulated Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.49
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.29891490936279297,
+            "speaker_2_memory_time": 0.3149757385253906,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.8944981098175049
+        },
+        {
+            "question": "What career path has Caroline decided to persue?",
+            "answer": "counseling or mental health for Transgender people",
+            "category": 1,
+            "evidence": [
+                "D4:13",
+                "D1:11"
+            ],
+            "response": "Counseling or mental health.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.48
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is checking out career options",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.76
+                },
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.68
+                },
+                {
+                    "memory": "User supports Caroline's interest in counseling or working in mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.6
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3045339584350586,
+            "speaker_2_memory_time": 0.2955951690673828,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.8647491931915283
+        },
+        {
+            "question": "Would Caroline still want to pursue counseling as a career if she hadn't received support growing up?",
+            "answer": "Likely no",
+            "category": 3,
+            "evidence": [
+                "D4:15",
+                "D3:5"
+            ],
+            "response": "No evidence found.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.54
+                },
+                {
+                    "memory": "Values counseling and support groups",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.5
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User supports Caroline's interest in counseling or working in mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.65
+                },
+                {
+                    "memory": "User believes Caroline would be a great counselor due to her empathy and understanding",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.63
+                },
+                {
+                    "memory": "Caroline wants to learn more about advocacy",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.55
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3028991222381592,
+            "speaker_2_memory_time": 0.30307483673095703,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.6914999485015869
+        },
+        {
+            "question": "When did Melanie sign up for a pottery class?",
+            "answer": "2 July 2023",
+            "category": 2,
+            "evidence": [
+                "D5:4"
+            ],
+            "response": "3 July, 2023",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.8
+                },
+                {
+                    "memory": "Melanie is excited about pottery and how it helps her express herself and bring joy",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.72
+                },
+                {
+                    "memory": "Melanie finds pottery calming",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.68
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User signed up for a pottery class",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.68
+                },
+                {
+                    "memory": "User is excited about pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "User is a big fan of pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.48
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30331921577453613,
+            "speaker_2_memory_time": 0.3122272491455078,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7436399459838867
+        },
+        {
+            "question": "When is Caroline going to the transgender conference?",
+            "answer": "July 2023",
+            "category": 2,
+            "evidence": [
+                "D5:13"
+            ],
+            "response": "July 2023",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Going to a transgender conference this month",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.67
+                },
+                {
+                    "memory": "Caroline attended an LGBTQ+ pride parade last week",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.51
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is going to a transgender conference this month",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.9
+                },
+                {
+                    "memory": "Caroline attended a LGBTQ support group",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Caroline is thinking of working with trans people, helping them accept themselves and supporting their mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.6
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3061649799346924,
+            "speaker_2_memory_time": 0.29830193519592285,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7173440456390381
+        },
+        {
+            "question": "Would Melanie be considered a member of the LGBTQ community?",
+            "answer": "Likely no, she does not refer to herself as part of it",
+            "category": 3,
+            "evidence": [],
+            "response": "Yes, she is part of it.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Believes the LGBTQ+ community has grown",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "Melanie has been married for 5 years",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.48
+                },
+                {
+                    "memory": "Melanie has been married for 5 years",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.48
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline attended a LGBTQ support group",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.47
+                },
+                {
+                    "memory": "User is part of the trans community",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.45
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3051877021789551,
+            "speaker_2_memory_time": 0.30013084411621094,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7506299018859863
+        },
+        {
+            "question": "When did Melanie go camping in June?",
+            "answer": "The week before 27 June 2023",
+            "category": 2,
+            "evidence": [
+                "D4:8"
+            ],
+            "response": "Last week, June 2023.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Melanie explored nature, roasted marshmallows around a campfire, and went on a hike with family",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.66
+                },
+                {
+                    "memory": "Melanie has 2 younger kids who love nature",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User took their family camping in the mountains last week",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.47
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.43
+                },
+                {
+                    "memory": "Went on a hike",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.33
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30288100242614746,
+            "speaker_2_memory_time": 0.30388689041137695,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7638919353485107
+        },
+        {
+            "question": "When did Caroline go to a pride parade during the summer?",
+            "answer": "The week before 3 July 2023",
+            "category": 2,
+            "evidence": [
+                "D5:1"
+            ],
+            "response": "Caroline went to a pride parade on 26 June 2023.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Caroline attended an LGBTQ+ pride parade last week",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.78
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.47
+                },
+                {
+                    "memory": "Felt a sense of belonging at the pride parade",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.47
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline attended a LGBTQ support group",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Caroline is going to a transgender conference this month",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.59
+                },
+                {
+                    "memory": "Attended an LGBTQ+ pride parade",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.53
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.34958696365356445,
+            "speaker_2_memory_time": 0.3042409420013428,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.9316658973693848
+        },
+        {
+            "question": "Would Melanie be considered an ally to the transgender community?",
+            "answer": "Yes, she is supportive",
+            "category": 3,
+            "evidence": [],
+            "response": "Yes, she supports trans people.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Is part of the trans community",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Interested in working with trans people",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.48
+                },
+                {
+                    "memory": "User's friend is named Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.44
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User is part of the trans community",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Caroline is thinking of working with trans people, helping them accept themselves and supporting their mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Caroline is going to a transgender conference this month",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.44
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.29909515380859375,
+            "speaker_2_memory_time": 0.29918885231018066,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.9059629440307617
+        },
+        {
+            "question": "What did the charity race raise awareness for?",
+            "answer": "mental health",
+            "category": 4,
+            "evidence": [
+                "D2:2"
+            ],
+            "response": "Mental health awareness",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Ran a charity race for mental health last Saturday",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.65
+                },
+                {
+                    "memory": "Finds participating in charity races rewarding",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.6
+                },
+                {
+                    "memory": "Wants to support those with similar issues",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.33
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Found the charity race rewarding",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.65
+                },
+                {
+                    "memory": "Ran a charity race for mental health last Saturday",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.65
+                },
+                {
+                    "memory": "Caroline wants to learn more about advocacy",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.34
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3029170036315918,
+            "speaker_2_memory_time": 0.31204915046691895,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7411072254180908
+        },
+        {
+            "question": "What did Melanie realize after the charity race?",
+            "answer": "self-care is important",
+            "category": 4,
+            "evidence": [
+                "D2:3"
+            ],
+            "response": "Found the charity race rewarding.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Finds participating in charity races rewarding",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Ran a charity race for mental health last Saturday",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Found the charity race rewarding",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.59
+                },
+                {
+                    "memory": "Ran a charity race for mental health last Saturday",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.44
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3100278377532959,
+            "speaker_2_memory_time": 0.31180810928344727,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7211458683013916
+        },
+        {
+            "question": "How does Melanie prioritize self-care?",
+            "answer": "by carving out some me-time each day for activities like running, reading, or playing the violin",
+            "category": 4,
+            "evidence": [
+                "D2:5"
+            ],
+            "response": "Looking after herself helps family.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Melanie enjoys painting as a way to express feelings and get creative",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "Melanie finds painting a great way to relax after a long day",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.51
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Believes self-care is important",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Is on a journey of self-care",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Feels that looking after herself helps her better look after her family",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.51
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3111882209777832,
+            "speaker_2_memory_time": 0.3010420799255371,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.8052668571472168
+        },
+        {
+            "question": "What are Caroline's plans for the summer?",
+            "answer": "researching adoption agencies",
+            "category": 4,
+            "evidence": [
+                "D2:8"
+            ],
+            "response": "Learning the piano.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.55
+                },
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.55
+                },
+                {
+                    "memory": "Caroline attended an LGBTQ+ pride parade last week",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.48
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.68
+                },
+                {
+                    "memory": "Caroline feels hopeful and optimistic about her plans",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.64
+                },
+                {
+                    "memory": "Caroline is checking out career options",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.61
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3043091297149658,
+            "speaker_2_memory_time": 0.2956578731536865,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.733928918838501
+        },
+        {
+            "question": "What type of individuals does the adoption agency Caroline is considering support?",
+            "answer": "LGBTQ+ individuals",
+            "category": 4,
+            "evidence": [
+                "D2:12"
+            ],
+            "response": "LGBTQ+ individuals",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.64
+                },
+                {
+                    "memory": "Chose the agency because they help LGBTQ+ folks with adoption",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.52
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.73
+                },
+                {
+                    "memory": "Caroline is thinking of working with trans people, helping them accept themselves and supporting their mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Caroline's goal is to give kids a loving home",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.52
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30577802658081055,
+            "speaker_2_memory_time": 0.3061246871948242,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.6518881320953369
+        },
+        {
+            "question": "Why did Caroline choose the adoption agency?",
+            "answer": "because of their inclusivity and support for LGBTQ+ individuals",
+            "category": 4,
+            "evidence": [
+                "D2:12"
+            ],
+            "response": "They help LGBTQ+ folks with adoption.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Chose the agency because they help LGBTQ+ folks with adoption",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.66
+                },
+                {
+                    "memory": "Looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.63
+                },
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.57
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.79
+                },
+                {
+                    "memory": "Caroline's goal is to give kids a loving home",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Caroline is creating a family for kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.58
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30382633209228516,
+            "speaker_2_memory_time": 0.30214905738830566,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7988340854644775
+        },
+        {
+            "question": "What is Caroline excited about in the adoption process?",
+            "answer": "creating a family for kids who need one",
+            "category": 4,
+            "evidence": [
+                "D2:14"
+            ],
+            "response": "Creating a family for kids.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.5
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.74
+                },
+                {
+                    "memory": "Excited about the adoption process",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.66
+                },
+                {
+                    "memory": "Caroline is creating a family for kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.64
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3133068084716797,
+            "speaker_2_memory_time": 0.304351806640625,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7771339416503906
+        },
+        {
+            "question": "What does Melanie think about Caroline's decision to adopt?",
+            "answer": "she thinks Caroline is doing something amazing and will be an awesome mom",
+            "category": 4,
+            "evidence": [
+                "D2:15"
+            ],
+            "response": "Supportive of adoption decision.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.5
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Caroline is creating a family for kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Caroline's goal is to give kids a loving home",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.56
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30735111236572266,
+            "speaker_2_memory_time": 0.3017158508300781,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.8332428932189941
+        },
+        {
+            "question": "How long have Mel and her husband been married?",
+            "answer": "Mel and her husband have been married for 5 years.",
+            "category": 4,
+            "evidence": [
+                "D3:16"
+            ],
+            "response": "Five years.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Melanie has been married for 5 years",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.68
+                },
+                {
+                    "memory": "Melanie has been married for 5 years",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.68
+                },
+                {
+                    "memory": "User is communicating with someone named Mel",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.47
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User has been married for 5 years",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "User has a husband and kids",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.39
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.37
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3156917095184326,
+            "speaker_2_memory_time": 0.306210994720459,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.6978158950805664
+        },
+        {
+            "question": "What does Caroline's necklace symbolize?",
+            "answer": "love, faith, and strength",
+            "category": 4,
+            "evidence": [
+                "D4:3"
+            ],
+            "response": "Love, faith, and strength.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "User has a necklace with a special meaning",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Necklace stands for love, faith, and strength",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.55
+                },
+                {
+                    "memory": "Necklace is a reminder of roots and family support",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.52
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "The necklace symbolizes love, faith, and strength",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.64
+                },
+                {
+                    "memory": "User treasures a necklace given by her grandma",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "Caroline has a hand-painted bowl made by a friend for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.47
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30680298805236816,
+            "speaker_2_memory_time": 0.2964627742767334,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7988541126251221
+        },
+        {
+            "question": "What country is Caroline's grandma from?",
+            "answer": "Sweden",
+            "category": 4,
+            "evidence": [
+                "D4:3"
+            ],
+            "response": "No information available.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.54
+                },
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.45
+                },
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.41
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User has a friend named Caroline",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "User is communicating with Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.49
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30945277214050293,
+            "speaker_2_memory_time": 0.3039820194244385,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7187330722808838
+        },
+        {
+            "question": "What was grandma's gift to Caroline?",
+            "answer": "necklace",
+            "category": 4,
+            "evidence": [
+                "D4:3"
+            ],
+            "response": "Necklace from grandma.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Necklace is a gift from grandma",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.55
+                },
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.48
+                },
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.45
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline has a hand-painted bowl made by a friend for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.54
+                },
+                {
+                    "memory": "User congratulated Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "Caroline is creating a family for kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.49
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3035309314727783,
+            "speaker_2_memory_time": 0.32131505012512207,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7347772121429443
+        },
+        {
+            "question": "What is Melanie's hand-painted bowl a reminder of?",
+            "answer": "art and self-expression",
+            "category": 4,
+            "evidence": [
+                "D4:5"
+            ],
+            "response": "Art and self-expression",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Has a hand-painted bowl with sentimental value",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.68
+                },
+                {
+                    "memory": "The bowl's pattern and colors remind her of art and self-expression",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.64
+                },
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.61
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "The bowl has an awesome pattern and colors that remind her of art and self-expression",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Caroline has a hand-painted bowl made by a friend for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.6
+                },
+                {
+                    "memory": "Pottery helps express my emotions",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.47
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3121218681335449,
+            "speaker_2_memory_time": 0.36615610122680664,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 6.596113920211792
+        },
+        {
+            "question": "What did Melanie and her family do while camping?",
+            "answer": "explored nature, roasted marshmallows, and went on a hike",
+            "category": 4,
+            "evidence": [
+                "D4:8"
+            ],
+            "response": "Roasted marshmallows and hiked.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Melanie explored nature, roasted marshmallows around a campfire, and went on a hike with family",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.76
+                },
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Melanie has 2 younger kids who love nature",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.55
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User took their family camping in the mountains last week",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.44
+                },
+                {
+                    "memory": "Went on a hike",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.41
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 1.089853048324585,
+            "speaker_2_memory_time": 0.3095097541809082,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7660999298095703
+        },
+        {
+            "question": "What kind of counseling and mental health services is Caroline interested in pursuing?",
+            "answer": "working with trans people, helping them accept themselves and supporting their mental health",
+            "category": 4,
+            "evidence": [
+                "D4:13"
+            ],
+            "response": "Counseling and mental health career.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Interested in counseling and mental health",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.67
+                },
+                {
+                    "memory": "Looking into counseling and mental health as a career",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.63
+                },
+                {
+                    "memory": "Keen on counseling or working in mental health",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.61
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User supports Caroline's interest in counseling or working in mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.79
+                },
+                {
+                    "memory": "User believes Caroline would be a great counselor due to her empathy and understanding",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.63
+                },
+                {
+                    "memory": "Looking into counseling and mental health as a career",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.63
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3113832473754883,
+            "speaker_2_memory_time": 0.31679272651672363,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7913210391998291
+        },
+        {
+            "question": "What workshop did Caroline attend recently?",
+            "answer": "LGBTQ+ counseling workshop",
+            "category": 4,
+            "evidence": [
+                "D4:13"
+            ],
+            "response": "Enlightening workshop on 27 June 2023.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Found the workshop enlightening",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Caroline attended an LGBTQ+ pride parade last week",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.49
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is going to a transgender conference this month",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.59
+                },
+                {
+                    "memory": "Caroline attended a LGBTQ support group",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Found the workshop enlightening",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.56
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3106508255004883,
+            "speaker_2_memory_time": 0.31621718406677246,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.8383209705352783
+        },
+        {
+            "question": "What was discussed in the LGBTQ+ counseling workshop?",
+            "answer": "therapeutic methods and how to best work with trans people",
+            "category": 4,
+            "evidence": [
+                "D4:13"
+            ],
+            "response": "Therapeutic methods for trans people.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Attended an LGBTQ+ counseling workshop last Friday",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.8
+                },
+                {
+                    "memory": "Attended a LGBTQ support group yesterday",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.59
+                },
+                {
+                    "memory": "User encouraged students to get involved in the LGBTQ community",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.56
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Attended an LGBTQ+ counseling workshop last Friday",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.8
+                },
+                {
+                    "memory": "Learned about different therapeutic methods for working with trans people",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "User encourages students to get involved in the LGBTQ community",
+                    "timestamp": "7:55 pm on 9 June, 2023",
+                    "score": 0.54
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.302156925201416,
+            "speaker_2_memory_time": 0.3012409210205078,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7548649311065674
+        },
+        {
+            "question": "What motivated Caroline to pursue counseling?",
+            "answer": "her own journey and the support she received, and how counseling improved her life",
+            "category": 4,
+            "evidence": [
+                "D4:15"
+            ],
+            "response": "Support group gave her courage.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.58
+                },
+                {
+                    "memory": "Looking into counseling and mental health as a career",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Interested in counseling and mental health",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.52
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User supports Caroline's interest in counseling or working in mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.73
+                },
+                {
+                    "memory": "User believes Caroline would be a great counselor due to her empathy and understanding",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.69
+                },
+                {
+                    "memory": "Caroline wants to learn more about advocacy",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.62
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3047599792480469,
+            "speaker_2_memory_time": 0.3502340316772461,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 1.0784308910369873
+        },
+        {
+            "question": "What kind of place does Caroline want to create for people?",
+            "answer": "a safe and inviting place for people to grow",
+            "category": 4,
+            "evidence": [
+                "D4:15"
+            ],
+            "response": "Safe and inviting place.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Passionate about creating a safe, inviting place for people to grow",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.54
+                },
+                {
+                    "memory": "Support group has made Caroline feel accepted",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.5
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is creating a family for kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Caroline's goal is to give kids a loving home",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.59
+                },
+                {
+                    "memory": "Caroline is excited to meet other people in the community",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.57
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.2983269691467285,
+            "speaker_2_memory_time": 0.3039388656616211,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7339000701904297
+        },
+        {
+            "question": "Did Melanie make the black and white bowl in the photo?",
+            "answer": "Yes",
+            "category": 4,
+            "evidence": [
+                "D5:8"
+            ],
+            "response": "No evidence of a black and white bowl.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.58
+                },
+                {
+                    "memory": "User thinks the black and white design of the bowl is gorgeous and fancy",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "Melanie finds pottery calming",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.49
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "The bowl has an awesome pattern and colors that remind her of art and self-expression",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Made a bowl in class",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.46
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3157031536102295,
+            "speaker_2_memory_time": 0.3054769039154053,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.8209552764892578
+        },
+        {
+            "question": "What did Caroline realize after her charity race?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D2:3"
+            ],
+            "response": "Rewarding experience.",
+            "adversarial_answer": "self-care is important",
+            "speaker_1_memories": [
+                {
+                    "memory": "Finds participating in charity races rewarding",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.59
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.54
+                },
+                {
+                    "memory": "Ran a charity race for mental health last Saturday",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.51
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Found the charity race rewarding",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Support group has given Caroline courage to embrace herself",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.54
+                },
+                {
+                    "memory": "Caroline is going to continue her education",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.53
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3066120147705078,
+            "speaker_2_memory_time": 0.29892873764038086,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.752410888671875
+        },
+        {
+            "question": "What are Melanie's plans for the summer with respect to adoption?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D2:8"
+            ],
+            "response": "Looking into adoption agencies.",
+            "adversarial_answer": "researching adoption agencies",
+            "speaker_1_memories": [
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Melanie has 2 younger kids who love nature",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.49
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.43
+                },
+                {
+                    "memory": "Excited about the adoption process",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.43
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.2986910343170166,
+            "speaker_2_memory_time": 0.3053598403930664,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.9663360118865967
+        },
+        {
+            "question": "What type of individuals does the adoption agency Melanie is considering support?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D2:12"
+            ],
+            "response": "LGBTQ+ individuals",
+            "adversarial_answer": "LGBTQ+ individuals",
+            "speaker_1_memories": [
+                {
+                    "memory": "Looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.63
+                },
+                {
+                    "memory": "Chose the agency because they help LGBTQ+ folks with adoption",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Interested in working with trans people",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.43
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.59
+                },
+                {
+                    "memory": "Excited about the adoption process",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.45
+                },
+                {
+                    "memory": "Caroline is thinking of working with trans people, helping them accept themselves and supporting their mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.4
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.29573917388916016,
+            "speaker_2_memory_time": 0.30718111991882324,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.9131231307983398
+        },
+        {
+            "question": "Why did Melanie choose the adoption agency?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D2:12"
+            ],
+            "response": "To help LGBTQ+ folks with adoption.",
+            "adversarial_answer": "because of their inclusivity and support for LGBTQ+ individuals",
+            "speaker_1_memories": [
+                {
+                    "memory": "Chose the agency because they help LGBTQ+ folks with adoption",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.68
+                },
+                {
+                    "memory": "Looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.49
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline is looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "Caroline's goal is to give kids a loving home",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.43
+                },
+                {
+                    "memory": "Excited about the adoption process",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.42
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3013150691986084,
+            "speaker_2_memory_time": 0.3170812129974365,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.980201005935669
+        },
+        {
+            "question": "What is Melanie excited about in her adoption process?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D2:14"
+            ],
+            "response": "Adoption process excitement.",
+            "adversarial_answer": "creating a family for kids who need one",
+            "speaker_1_memories": [
+                {
+                    "memory": "Melanie is excited about pottery and how it helps her express herself and bring joy",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Melanie has 2 younger kids who love nature",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.52
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Excited about the adoption process",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Caroline is looking into adoption agencies",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.54
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.48
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30174803733825684,
+            "speaker_2_memory_time": 0.32325100898742676,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7550477981567383
+        },
+        {
+            "question": "What does Melanie's necklace symbolize?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:3"
+            ],
+            "response": "Love, faith, and strength.",
+            "adversarial_answer": "love, faith, and strength",
+            "speaker_1_memories": [
+                {
+                    "memory": "User has a necklace with a special meaning",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "Necklace stands for love, faith, and strength",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.51
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "The necklace symbolizes love, faith, and strength",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "User treasures a necklace given by her grandma",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.46
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3531839847564697,
+            "speaker_2_memory_time": 0.3117203712463379,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.8699390888214111
+        },
+        {
+            "question": "What country is Melanie's grandma from?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:3"
+            ],
+            "response": "Sweden",
+            "adversarial_answer": "Sweden",
+            "speaker_1_memories": [
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "User's friend is named Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.48
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.55
+                },
+                {
+                    "memory": "User treasures a necklace given by her grandma",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.31
+                },
+                {
+                    "memory": "User is from Sweden",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.29
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.2994818687438965,
+            "speaker_2_memory_time": 0.30065035820007324,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7666959762573242
+        },
+        {
+            "question": "What was grandma's gift to Melanie?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:3"
+            ],
+            "response": "A treasured necklace.",
+            "adversarial_answer": "necklace",
+            "speaker_1_memories": [
+                {
+                    "memory": "User appreciates Melanie's painting",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.55
+                },
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.53
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.47
+                },
+                {
+                    "memory": "User treasures a necklace given by her grandma",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.46
+                },
+                {
+                    "memory": "Caroline has a hand-painted bowl made by a friend for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.36
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.31309008598327637,
+            "speaker_2_memory_time": 0.4042930603027344,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7352409362792969
+        },
+        {
+            "question": "What was grandpa's gift to Caroline?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:3"
+            ],
+            "response": "Necklace from grandma.",
+            "adversarial_answer": "necklace",
+            "speaker_1_memories": [
+                {
+                    "memory": "Necklace is a gift from grandma",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Caroline is learning the piano",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.47
+                },
+                {
+                    "memory": "User's name is Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.43
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline has a hand-painted bowl made by a friend for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "User congratulated Caroline",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Caroline is creating a family for kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.5
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30069565773010254,
+            "speaker_2_memory_time": 0.320479154586792,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.9343249797821045
+        },
+        {
+            "question": "What is Caroline's hand-painted bowl a reminder of?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:5"
+            ],
+            "response": "Art and self-expression",
+            "adversarial_answer": "art and self-expression",
+            "speaker_1_memories": [
+                {
+                    "memory": "Has a hand-painted bowl with sentimental value",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.69
+                },
+                {
+                    "memory": "The bowl's pattern and colors remind her of art and self-expression",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.64
+                },
+                {
+                    "memory": "Received the bowl for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.54
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline has a hand-painted bowl made by a friend for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.76
+                },
+                {
+                    "memory": "The bowl has an awesome pattern and colors that remind her of art and self-expression",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.61
+                },
+                {
+                    "memory": "Pottery helps express my emotions",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.48
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3031189441680908,
+            "speaker_2_memory_time": 0.31095218658447266,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7023508548736572
+        },
+        {
+            "question": "What did Caroline and her family do while camping?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:8"
+            ],
+            "response": "Roasted marshmallows and hiked.",
+            "adversarial_answer": "explored nature, roasted marshmallows, and went on a hike",
+            "speaker_1_memories": [
+                {
+                    "memory": "Melanie explored nature, roasted marshmallows around a campfire, and went on a hike with family",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Caroline aims to provide a safe and loving home for the kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.47
+                },
+                {
+                    "memory": "Caroline attended an LGBTQ+ pride parade last week",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.46
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User took their family camping in the mountains last week",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.58
+                },
+                {
+                    "memory": "Caroline is creating a family for kids",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Caroline attended a LGBTQ support group",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.48
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.31459689140319824,
+            "speaker_2_memory_time": 0.30544567108154297,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 1.090198040008545
+        },
+        {
+            "question": "What kind of counseling and mental health services is Melanie interested in pursuing?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:13"
+            ],
+            "response": "Not specified in memories.",
+            "adversarial_answer": "working with trans people, helping them accept themselves and supporting their mental health",
+            "speaker_1_memories": [
+                {
+                    "memory": "Interested in counseling and mental health",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.67
+                },
+                {
+                    "memory": "Looking into counseling and mental health as a career",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "Keen on counseling or working in mental health",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.6
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Looking into counseling and mental health as a career",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "User supports Caroline's interest in counseling or working in mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "Interested in taking care of mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3104679584503174,
+            "speaker_2_memory_time": 0.3069949150085449,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.7485799789428711
+        },
+        {
+            "question": "What kind of counseling workshop did Melanie attend recently?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:13"
+            ],
+            "response": "LGBTQ+ counseling workshop",
+            "adversarial_answer": "LGBTQ+ counseling workshop",
+            "speaker_1_memories": [
+                {
+                    "memory": "Attended an LGBTQ+ counseling workshop last Friday",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "Melanie explored nature, roasted marshmallows around a campfire, and went on a hike with family",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.49
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Attended an LGBTQ+ counseling workshop last Friday",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "Found the workshop enlightening",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "User supports Caroline's interest in counseling or working in mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.48
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30257391929626465,
+            "speaker_2_memory_time": 0.3779158592224121,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 1.0726041793823242
+        },
+        {
+            "question": "What motivated Melanie to pursue counseling?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:15"
+            ],
+            "response": "Empathy and understanding.",
+            "adversarial_answer": "her own journey and the support she received, and how counseling improved her life",
+            "speaker_1_memories": [
+                {
+                    "memory": "Looking into counseling and mental health as a career",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Interested in counseling and mental health",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Family time matters to Melanie",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.51
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User supports Caroline's interest in counseling or working in mental health",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.57
+                },
+                {
+                    "memory": "User believes Caroline would be a great counselor due to her empathy and understanding",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "Looking into counseling and mental health as a career",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.53
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3009300231933594,
+            "speaker_2_memory_time": 0.302264928817749,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 1.02705717086792
+        },
+        {
+            "question": "What kind of place does Melanie want to create for people?",
+            "answer": "",
+            "category": 5,
+            "evidence": [
+                "D4:15"
+            ],
+            "response": "A safe, inviting place.",
+            "adversarial_answer": "a safe and inviting place for people to grow",
+            "speaker_1_memories": [
+                {
+                    "memory": "Melanie is excited about pottery and how it helps her express herself and bring joy",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.52
+                },
+                {
+                    "memory": "Melanie is involved in pottery",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.51
+                },
+                {
+                    "memory": "Melanie enjoys painting as a way to express feelings and get creative",
+                    "timestamp": "1:56 pm on 8 May, 2023",
+                    "score": 0.51
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "User aims to create a safe, inviting place for people to grow",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.49
+                },
+                {
+                    "memory": "User's name is Melanie",
+                    "timestamp": "1:14 pm on 25 May, 2023",
+                    "score": 0.48
+                },
+                {
+                    "memory": "Inspired by professionals creating a safe space for trans individuals",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.39
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.3036179542541504,
+            "speaker_2_memory_time": 0.3029632568359375,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.8286762237548828
+        },
+        {
+            "question": "Did Caroline make the black and white bowl in the photo?",
+            "answer": "No",
+            "category": 5,
+            "evidence": [
+                "D5:8"
+            ],
+            "response": "No, Caroline did not make it.",
+            "adversarial_answer": "Yes",
+            "speaker_1_memories": [
+                {
+                    "memory": "User thinks the black and white design of the bowl is gorgeous and fancy",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.53
+                },
+                {
+                    "memory": "The bowl's pattern and colors remind her of art and self-expression",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Received the bowl for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.48
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Caroline has a hand-painted bowl made by a friend for her 18th birthday ten years ago",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.62
+                },
+                {
+                    "memory": "The bowl has an awesome pattern and colors that remind her of art and self-expression",
+                    "timestamp": "10:37 am on 27 June, 2023",
+                    "score": 0.5
+                },
+                {
+                    "memory": "Made a bowl in class",
+                    "timestamp": "1:36 pm on 3 July, 2023",
+                    "score": 0.48
+                }
+            ],
+            "num_speaker_1_memories": 3,
+            "num_speaker_2_memories": 3,
+            "speaker_1_memory_time": 0.30190587043762207,
+            "speaker_2_memory_time": 0.30481410026550293,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.9663150310516357
+        }
+    ]
+}

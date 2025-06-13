@@ -1,0 +1,13 @@
+{
+    "0": [
+        {
+            "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+            "answer": "The information provided is not enough. You did not mention how much will the bus take.",
+            "response": "$50",
+            "category": "multi-session",
+            "bleu_score": 0,
+            "f1_score": 0.0,
+            "llm_score": 0
+        }
+    ]
+}

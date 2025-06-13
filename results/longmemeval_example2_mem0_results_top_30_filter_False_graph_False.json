@@ -1,0 +1,299 @@
+{
+    "0": [
+        {
+            "question": "What was the first issue I had with my new car after its first service?",
+            "answer": "GPS system not functioning correctly",
+            "category": "temporal-reasoning",
+            "evidence": [
+                "answer_4be1b6b4_2",
+                "answer_4be1b6b4_3",
+                "answer_4be1b6b4_1"
+            ],
+            "response": "GPS system malfunction on March 22.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Just got car serviced for the first time on March 15th",
+                    "timestamp": "2023/04/10 (Mon) 17:50",
+                    "score": 0.62
+                },
+                {
+                    "memory": "Had a great experience with the car service",
+                    "timestamp": "2023/04/10 (Mon) 17:50",
+                    "score": 0.46
+                },
+                {
+                    "memory": "User is happy with new car accessories",
+                    "timestamp": "2023/04/10 (Mon) 17:50",
+                    "score": 0.43
+                },
+                {
+                    "memory": "Purchased a new car cover, floor mats, and a steering wheel cover",
+                    "timestamp": "2023/04/10 (Mon) 17:50",
+                    "score": 0.43
+                },
+                {
+                    "memory": "Had an issue with car's GPS system on 3/22",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.43
+                },
+                {
+                    "memory": "Took car back to dealership to get GPS fixed",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.43
+                },
+                {
+                    "memory": "Will ask about additional services like interior cleaning and paint protection at the detailer",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.4
+                },
+                {
+                    "memory": "Bought the car on February 10th",
+                    "timestamp": "2023/04/10 (Mon) 17:15",
+                    "score": 0.4
+                },
+                {
+                    "memory": "Noticed improvement in gas mileage compared to old car",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.37
+                },
+                {
+                    "memory": "Thinking of getting a car wax and detailing done before a trip to protect car's paint job and interior",
+                    "timestamp": "2023/04/10 (Mon) 17:15",
+                    "score": 0.35
+                },
+                {
+                    "memory": "Dealership replaced the entire GPS system",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.35
+                },
+                {
+                    "memory": "User has a Honda Civic",
+                    "timestamp": "2023/04/10 (Mon) 17:15",
+                    "score": 0.34
+                },
+                {
+                    "memory": "Wants to make sure to get the most out of the car's features, like the GPS system",
+                    "timestamp": "2023/04/10 (Mon) 17:15",
+                    "score": 0.32
+                },
+                {
+                    "memory": "Considers getting a wax and detailing done every 3-4 months to maintain the car's appearance and protect the paint",
+                    "timestamp": "2023/04/10 (Mon) 17:50",
+                    "score": 0.31
+                },
+                {
+                    "memory": "Considering options for car detailing",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.31
+                },
+                {
+                    "memory": "Found a local detailer with great reviews",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.31
+                },
+                {
+                    "memory": "Interested in car wax and detailing for the trip",
+                    "timestamp": "2023/04/10 (Mon) 17:15",
+                    "score": 0.29
+                },
+                {
+                    "memory": "Wants to improve gas mileage",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.26
+                },
+                {
+                    "memory": "Gas mileage is better than old car",
+                    "timestamp": "2023/04/10 (Mon) 17:50",
+                    "score": 0.26
+                },
+                {
+                    "memory": "Looking for tips to protect car's interior from wear and tear when transporting large or heavy items",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.25
+                },
+                {
+                    "memory": "GPS system is now working flawlessly",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.25
+                },
+                {
+                    "memory": "Redeemed 50,000 points from credit card for a $500 gift card to a car accessories store",
+                    "timestamp": "2023/04/10 (Mon) 17:50",
+                    "score": 0.25
+                },
+                {
+                    "memory": "Paid car insurance premium online using bank's mobile app",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.25
+                },
+                {
+                    "memory": "User is looking for a good detailer in their area",
+                    "timestamp": "2023/04/10 (Mon) 17:50",
+                    "score": 0.24
+                },
+                {
+                    "memory": "Used car to transport furniture",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.24
+                },
+                {
+                    "memory": "Premium decreased by $20 per month due to safe driving record",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.23
+                },
+                {
+                    "memory": "User is looking for car wax products suited for advanced paint finishes",
+                    "timestamp": "2023/04/10 (Mon) 14:47",
+                    "score": 0.22
+                },
+                {
+                    "memory": "Interested in using lane departure warning and blind spot detection features of GPS system for safe drive",
+                    "timestamp": "2023/04/10 (Mon) 17:15",
+                    "score": 0.21
+                },
+                {
+                    "memory": "Getting around 32 miles per gallon",
+                    "timestamp": "2023/04/10 (Mon) 17:50",
+                    "score": 0.21
+                },
+                {
+                    "memory": "Open to exploring other loyalty programs or discounts for gas",
+                    "timestamp": "2023/04/10 (Mon) 17:15",
+                    "score": 0.21
+                }
+            ],
+            "speaker_2_memories": [],
+            "num_speaker_1_memories": 30,
+            "num_speaker_2_memories": 0,
+            "speaker_1_memory_time": 0.9097511768341064,
+            "speaker_2_memory_time": 0.26988911628723145,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 1.5061061382293701
+        }
+    ],
+    "1": [
+        {
+            "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+            "answer": "The information provided is not enough. You did not mention how much will the bus take.",
+            "category": "multi-session",
+            "evidence": [
+                "answer_96c743d0_abs_2",
+                "answer_96c743d0_abs_1"
+            ],
+            "response": "$50",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Taking a taxi from the airport to hotel would cost around $60",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.65
+                },
+                {
+                    "memory": "Price to get to hotel from airport by train is $10",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Thinking of asking hotel for recommendations for transportation from the airport",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.55
+                },
+                {
+                    "memory": "Asking for directions to hotel from the airport by train",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.49
+                },
+                {
+                    "memory": "Need help finding the best way to get from the airport to hotel in Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.48
+                },
+                {
+                    "memory": "Considering a taxi due to a lot of luggage",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.46
+                },
+                {
+                    "memory": "Looking for recommendations to get from the airport to Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.42
+                },
+                {
+                    "memory": "Friend mentioned that taxis are pretty expensive",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.4
+                },
+                {
+                    "memory": "Possibly a discounted ticket or a package deal with the hotel",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.38
+                },
+                {
+                    "memory": "Flying into Narita International Airport",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.29
+                },
+                {
+                    "memory": "Needs help with itinerary",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.28
+                },
+                {
+                    "memory": "User was thinking of taking the train",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.27
+                },
+                {
+                    "memory": "Booked a hotel in Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.26
+                },
+                {
+                    "memory": "Trying to finalize travel plans",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.25
+                },
+                {
+                    "memory": "Considers $60 a bit pricey",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.23
+                },
+                {
+                    "memory": "Hotel is in the Shinjuku district",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.22
+                },
+                {
+                    "memory": "Arriving on a Friday afternoon",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.2
+                },
+                {
+                    "memory": "Friend mentioned a special deal",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.17
+                },
+                {
+                    "memory": "User is planning a trip to Japan, specifically Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.17
+                },
+                {
+                    "memory": "User's friend mentioned it's not the only option",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.1
+                }
+            ],
+            "speaker_2_memories": [],
+            "num_speaker_1_memories": 20,
+            "num_speaker_2_memories": 0,
+            "speaker_1_memory_time": 0.26149463653564453,
+            "speaker_2_memory_time": 0.26337194442749023,
+            "speaker_1_graph_memories": null,
+            "speaker_2_graph_memories": null,
+            "response_time": 0.6660068035125732
+        }
+    ]
+}
