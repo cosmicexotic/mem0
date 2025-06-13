@@ -33,20 +33,45 @@ config = {
                 "api_version": "2023-05-15",
                 "azure_endpoint": "https://123s-mann562s-eastus2.cognitiveservices.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15",
                 "api_key": "FjfmeNsmd6aBBbCOWLb4sl8RU0057djGvmGcvzhqYrOkUtifGvd0JQQJ99BEACHYHv6XJ3w3AAAAACOGIlEZ",
-            }
+            },
+            "embedding_dims": 1536,
         }
-    }
+    },
+    "graph_store": {
+        "provider": "memgraph",
+        "config": {
+            "url": "bolt://localhost:7687",
+            "username": "memgraph",
+            "password": "mem0graph",
+        },
+    },
 }
 
 m = Memory.from_config(config)
+
 messages = [
-    {"role": "user", "content": "I'm planning to watch a movie tonight. Any recommendations?"},
-    {"role": "assistant", "content": "How about a thriller movies? They can be quite engaging."},
-    {"role": "user", "content": "I’m not a big fan of thriller movies but I love sci-fi movies."},
-    {"role": "assistant", "content": "Got it! I'll avoid thriller recommendations and suggest sci-fi movies in the future."}
+    {
+        "role": "user",
+        "content": "I'm planning to watch a movie tonight. Any recommendations?",
+    },
+    {
+        "role": "assistant",
+        "content": "How about a thriller movies? They can be quite engaging.",
+    },
+    {
+        "role": "user",
+        "content": "I'm not a big fan of thriller movies but I love sci-fi movies.",
+    },
+    {
+        "role": "assistant",
+        "content": "Got it! I'll avoid thriller recommendations and suggest sci-fi movies in the future.",
+    },
 ]
-m.add(messages, user_id="alice", metadata={"category": "movies"})
+result = m.add(messages, user_id="alice", metadata={"category": "movies"})
 
 query = "What movies can I watch tonight?"
-pprint.pprint(m.search(query, user_id="alice"))
+pprint.pprint(result)
+# pprint.pprint(m.search(query, user_id="alice"))
 
+for result in m.search("what does alice love?", user_id="alice")["results"]:
+    print(result["memory"], result["score"])
