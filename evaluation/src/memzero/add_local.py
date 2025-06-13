@@ -3,10 +3,12 @@ import os
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
+import traceback
 
 from dotenv import load_dotenv
-from tqdm import tqdm
+from tqdm import tqdm, trange
 from mem0.memory.main import Memory
+from mem0 import MemoryClient
 
 load_dotenv()
 
@@ -108,7 +110,14 @@ config_graph = {
 
 class MemoryADD:
     def __init__(self, data_path=None, batch_size=2, is_graph=False):
-        self.mem0_client = Memory.from_config(config)
+        # self.mem0_client = Memory.from_config(config)
+        print("building mem0 client")
+        self.mem0_client = MemoryClient(
+            api_key="m0-1ueJFP3X8bz8rERwnGA6tjIcNGFsMUq93juuOLna",
+            # org_id="cosmicexotic-default-org",
+            # project_id=" default-project",
+        )
+        print("mem0 client built")
         self.batch_size = batch_size
         self.data_path = data_path
         self.data = None
@@ -140,6 +149,7 @@ class MemoryADD:
                 self.add_memory(speaker, [message], metadata={"timestamp": timestamp})
             except Exception as e:
                 print(f"无法添加消息 {i}：{str(e)}")
+                traceback.print_exc()  # 打印详细的异常堆栈信息
                 continue
 
     def process_conversation(self, item, idx):
@@ -226,31 +236,29 @@ class MemoryADD:
                     raise ValueError(f"Unknown speaker: {chat['role']}")
 
             # add memories for the two users on different threads
-            # self.add_memories_for_speaker(speaker_a_user_id, messages, timestamp, "Adding Memories for Speaker A")
-            # self.add_memories_for_speaker(speaker_b_user_id, messages_reverse, timestamp, "Adding Memories for Speaker B")
+            thread_a = threading.Thread(
+                target=self.add_memories_for_speaker,
+                args=(speaker_a_user_id, messages, timestamp, "Adding Memories for user")
+            )
+            thread_b = threading.Thread(
+                target=self.add_memories_for_speaker,
+                args=(speaker_b_user_id, messages_reverse, timestamp, "Adding Memories for assistant")
+            )
 
-            # thread_a = threading.Thread(
-            #     target=self.add_memories_for_speaker,
-            #     args=(speaker_a_user_id, messages, timestamp, "Adding Memories for user")
-            # )
-            # thread_b = threading.Thread(
-            #     target=self.add_memories_for_speaker,
-            #     args=(speaker_b_user_id, messages_reverse, timestamp, "Adding Memories for assistant")
-            # )
-
-            # thread_a.start()
-            # thread_b.start()
-            # thread_a.join()
-            # thread_b.join()
-            print("Adding memories for user")
-            self.add_memories_for_speaker(speaker_a_user_id, messages, timestamp, "Adding Memories for user")
+            thread_a.start()
+            thread_b.start()
+            thread_a.join()
+            thread_b.join()
+            
+            # print("Adding memories for user")
+            # self.add_memories_for_speaker(speaker_a_user_id, messages, timestamp, "Adding Memories for user")
 
             # print("Adding memories for assistant")
             # self.add_memories_for_speaker(speaker_b_user_id, messages_reverse, timestamp, "Adding Memories for assistant")
 
         print("Messages added successfully")
 
-    def process_all_conversations(self, max_workers=5, dataset="locomo", batch_size=1):
+    def process_all_conversations(self, max_workers=10, dataset="locomo", batch_size=1):
         if not self.data:
             raise ValueError("No data loaded. Please set data_path and call load_data() first.")
             
@@ -259,10 +267,10 @@ class MemoryADD:
         print(f"处理总共 {total_items} 条会话数据")
         
         # 将数据分批处理
-        for i in range(0, total_items, batch_size):
+        for i in trange(0, total_items, batch_size, desc="批处理进度"):  # 使用tqdm进度条
             batch = self.data[i:i+batch_size]
             print(f"处理第 {i//batch_size + 1} 批数据，共 {len(batch)} 条会话")
-            
+            batch_start_time = time.time()
             with ThreadPoolExecutor(max_workers=max_workers) as executor:
                 if dataset == "locomo":
                     futures = [executor.submit(self.process_conversation_with_retry, item, idx+i) for idx, item in enumerate(batch)]
@@ -276,11 +284,9 @@ class MemoryADD:
                         future.result(timeout=600)  # 设置超时时间为10分钟
                     except Exception as e:
                         print(f"处理会话时发生错误: {str(e)}")
-            
-            # 批次之间暂停一下，避免API限制
-            if i + batch_size < total_items:
-                print("批次间暂停5秒...")
-                time.sleep(5)
+            batch_end_time = time.time()
+            print(f"第 {i//batch_size + 1} 批数据处理完成，用时 {batch_end_time - batch_start_time:.2f} 秒")
+        # 已去除批次之间的暂停
     
     def process_conversation_with_retry(self, item, idx, max_retries=3):
         """带重试机制的会话处理"""
