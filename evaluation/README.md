@@ -49,6 +49,25 @@ Place the dataset files in the `dataset/` directory:
 └── prompts.py            # Prompts used for the models
 ```
 
+## 📖 详细脚本使用指南
+
+为了更好地理解和使用evaluation目录中的脚本，特别是 `reproduce_longmemeval_g.sh` 等关键脚本，我们提供了详细的中文使用指南：
+
+**[📋 脚本使用指南 (SCRIPT_GUIDE.md)](SCRIPT_GUIDE.md)**
+
+该指南包含：
+- **核心脚本说明**：详细解释 `reproduce_longmemeval_g.sh` 的用途和配置方法
+- **数据集配置**：如何更改数据集名称和选择合适的数据集
+- **API配置**：三种不同的OpenAI API配置方法
+- **运行步骤**：从环境准备到结果评估的完整流程
+- **故障排除**：常见问题和解决方案
+
+**特别强调 `reproduce_longmemeval_g.sh` 的用途：**
+- 这是运行基于图数据库的Mem0+实验的主要脚本
+- 使用Neo4j/Memgraph图数据库进行记忆存储和检索
+- 适用于需要复杂关系推理的场景
+- 支持多种数据集配置和API设置选项
+
 ## 🚀 Getting Started
 
 ### Prerequisites

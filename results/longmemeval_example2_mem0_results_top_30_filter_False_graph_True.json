@@ -1,0 +1,47 @@
+{
+    "0": [
+        {
+            "question": "What was the first issue I had with my new car after its first service?",
+            "answer": "GPS system not functioning correctly",
+            "category": "temporal-reasoning",
+            "evidence": [
+                "answer_4be1b6b4_2",
+                "answer_4be1b6b4_3",
+                "answer_4be1b6b4_1"
+            ],
+            "response": "No information available.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [],
+            "speaker_2_memories": [],
+            "num_speaker_1_memories": 0,
+            "num_speaker_2_memories": 0,
+            "speaker_1_memory_time": 3.7926011085510254,
+            "speaker_2_memory_time": 2.4158530235290527,
+            "speaker_1_graph_memories": [],
+            "speaker_2_graph_memories": [],
+            "response_time": 1.4713048934936523
+        }
+    ],
+    "1": [
+        {
+            "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+            "answer": "The information provided is not enough. You did not mention how much will the bus take.",
+            "category": "multi-session",
+            "evidence": [
+                "answer_96c743d0_abs_2",
+                "answer_96c743d0_abs_1"
+            ],
+            "response": "No information available.",
+            "adversarial_answer": "",
+            "speaker_1_memories": [],
+            "speaker_2_memories": [],
+            "num_speaker_1_memories": 0,
+            "num_speaker_2_memories": 0,
+            "speaker_1_memory_time": 5.118562936782837,
+            "speaker_2_memory_time": 3.7409889698028564,
+            "speaker_1_graph_memories": [],
+            "speaker_2_graph_memories": [],
+            "response_time": 1.4561059474945068
+        }
+    ]
+}

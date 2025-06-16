@@ -11,12 +11,6 @@ from src.utils import METHODS, TECHNIQUES
 # from src.zep.add import ZepAdd
 # from src.zep.search import ZepSearch
 
-os.environ["LLM_AZURE_OPENAI_API_KEY"] = "FjfmeNsmd6aBBbCOWLb4sl8RU0057djGvmGcvzhqYrOkUtifGvd0JQQJ99BEACHYHv6XJ3w3AAAAACOGIlEZ"
-os.environ["LLM_AZURE_DEPLOYMENT"] = "gpt-4o-mini"
-os.environ["LLM_AZURE_ENDPOINT"] = "https://123s-mann562s-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview"
-os.environ["LLM_AZURE_API_VERSION"] = "2025-01-01-preview"
-
-
 
 class Experiment:
     def __init__(self, technique_type, chunk_size):

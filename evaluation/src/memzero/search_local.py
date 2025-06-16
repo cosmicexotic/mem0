@@ -47,13 +47,18 @@ class MemorySearch:
             try:
                 if self.is_graph:
                     print("Searching with graph")
+                    # memories = self.mem0_client.search(
+                    #     query,
+                    #     user_id=user_id,
+                    #     top_k=self.top_k,
+                    #     filter_memories=self.filter_memories,
+                    #     enable_graph=True,
+                    #     output_format='v1.1'
+                    # )
                     memories = self.mem0_client.search(
                         query,
                         user_id=user_id,
-                        top_k=self.top_k,
-                        filter_memories=self.filter_memories,
-                        enable_graph=True,
-                        output_format='v1.1'
+                        limit=self.top_k,
                     )
                 else:
                     memories = self.mem0_client.search(

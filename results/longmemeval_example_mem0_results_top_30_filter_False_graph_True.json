@@ -1,0 +1,256 @@
+{
+    "0": [
+        {
+            "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+            "answer": "The information provided is not enough. You did not mention how much will the bus take.",
+            "category": "multi-session",
+            "evidence": [
+                "answer_96c743d0_abs_2",
+                "answer_96c743d0_abs_1"
+            ],
+            "response": "$50",
+            "adversarial_answer": "",
+            "speaker_1_memories": [
+                {
+                    "memory": "Taking a taxi from the airport to hotel would cost around $60",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.65
+                },
+                {
+                    "memory": "Considering asking hotel for transportation recommendations from the airport",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.58
+                },
+                {
+                    "memory": "Price to get to hotel from airport by train is $10",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Asking for directions to hotel from the airport by train",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.49
+                },
+                {
+                    "memory": "Need help finding the best way to get from the airport to hotel in Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.48
+                },
+                {
+                    "memory": "Considering a taxi due to a lot of luggage",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.46
+                },
+                {
+                    "memory": "Looking for recommendations to get from the airport to Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.42
+                },
+                {
+                    "memory": "Friend mentioned that taxis are pretty expensive",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.4
+                },
+                {
+                    "memory": "Possibly a discounted ticket or a package deal with the hotel",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.38
+                },
+                {
+                    "memory": "Flying into Narita International Airport",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.29
+                },
+                {
+                    "memory": "Needs help with itinerary",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.28
+                },
+                {
+                    "memory": "User was thinking of taking the train",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.27
+                },
+                {
+                    "memory": "Booked a hotel in Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.26
+                },
+                {
+                    "memory": "Trying to finalize travel plans",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.25
+                },
+                {
+                    "memory": "Considers $60 a bit pricey",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.23
+                },
+                {
+                    "memory": "Hotel is in the Shinjuku district",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.22
+                },
+                {
+                    "memory": "Arriving on a Friday afternoon",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.2
+                },
+                {
+                    "memory": "Friend mentioned a special deal",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.17
+                },
+                {
+                    "memory": "User is planning a trip to Japan, specifically Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.17
+                },
+                {
+                    "memory": "User's friend mentioned it's not the only option",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.1
+                }
+            ],
+            "speaker_2_memories": [
+                {
+                    "memory": "Taking a taxi from the airport to hotel costs around $60",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.64
+                },
+                {
+                    "memory": "Considering asking hotel for transportation recommendations from the airport",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.58
+                },
+                {
+                    "memory": "Price to get to hotel from the airport by train is $10",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.56
+                },
+                {
+                    "memory": "Friend mentioned it's $10 to get from the airport to the hotel by train",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.55
+                },
+                {
+                    "memory": "Looking for recommendations to get from the airport to the hotel in Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.49
+                },
+                {
+                    "memory": "Considering a taxi due to a lot of luggage",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.46
+                },
+                {
+                    "memory": "Finds $60 for a taxi a bit pricey",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.45
+                },
+                {
+                    "memory": "User is looking for directions to the hotel from the airport by train",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.43
+                },
+                {
+                    "memory": "Considering taking the train to Tokyo from the airport",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.42
+                },
+                {
+                    "memory": "Looking for recommendations to get from the airport to Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.42
+                },
+                {
+                    "memory": "Friend mentioned that taxis are pretty expensive",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.4
+                },
+                {
+                    "memory": "User is looking for transportation options from Narita Airport to Shinjuku",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.35
+                },
+                {
+                    "memory": "Friend suggested considering other options for transportation to Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.34
+                },
+                {
+                    "memory": "Interested in the pros and cons of taking the train",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.34
+                },
+                {
+                    "memory": "Friend mentioned a special deal, possibly a discounted ticket or a package deal with the hotel",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.31
+                },
+                {
+                    "memory": "Flying into Narita International Airport",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.29
+                },
+                {
+                    "memory": "Looking for alternative transportation options to Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.28
+                },
+                {
+                    "memory": "Needs help with itinerary",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.28
+                },
+                {
+                    "memory": "User was thinking of taking the train",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.27
+                },
+                {
+                    "memory": "Booked a hotel in Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.26
+                },
+                {
+                    "memory": "Trying to finalize travel plans",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.25
+                },
+                {
+                    "memory": "User will be arriving in Tokyo",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.22
+                },
+                {
+                    "memory": "User is staying in the Shinjuku district",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.21
+                },
+                {
+                    "memory": "Arriving on a Friday afternoon",
+                    "timestamp": "2023/05/25 (Thu) 16:04",
+                    "score": 0.2
+                },
+                {
+                    "memory": "User is planning a trip to Japan",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.16
+                },
+                {
+                    "memory": "User's friend mentioned it's not the only option",
+                    "timestamp": "2023/05/26 (Fri) 07:07",
+                    "score": 0.1
+                }
+            ],
+            "num_speaker_1_memories": 20,
+            "num_speaker_2_memories": 26,
+            "speaker_1_memory_time": 5.9187400341033936,
+            "speaker_2_memory_time": 3.7398030757904053,
+            "speaker_1_graph_memories": [],
+            "speaker_2_graph_memories": [],
+            "response_time": 1.4045445919036865
+        }
+    ]
+}

@@ -95,7 +95,8 @@ config_graph = {
                 "api_version": "2023-05-15",
                 "azure_endpoint": "https://123s-mann562s-eastus2.cognitiveservices.azure.com/openai/deployments/text-embedding-3-small/embeddings?api-version=2023-05-15",
                 "api_key": "FjfmeNsmd6aBBbCOWLb4sl8RU0057djGvmGcvzhqYrOkUtifGvd0JQQJ99BEACHYHv6XJ3w3AAAAACOGIlEZ",
-            }
+            },
+            "embedding_dims": 1536,
         }
     },
     "graph_store": {
@@ -110,18 +111,20 @@ config_graph = {
 
 class MemoryADD:
     def __init__(self, data_path=None, batch_size=2, is_graph=False):
-        # self.mem0_client = Memory.from_config(config)
+        
         print("building mem0 client")
-        self.mem0_client = MemoryClient(
-            api_key="m0-1ueJFP3X8bz8rERwnGA6tjIcNGFsMUq93juuOLna",
-            # org_id="cosmicexotic-default-org",
-            # project_id=" default-project",
-        )
+        # self.mem0_client = MemoryClient(
+        #     api_key="m0-1ueJFP3X8bz8rERwnGA6tjIcNGFsMUq93juuOLna",
+        #     # org_id="cosmicexotic-default-org",
+        #     # project_id=" default-project",
+        # )
+        self.mem0_client = Memory.from_config(config_graph if is_graph else config)
         print("mem0 client built")
         self.batch_size = batch_size
         self.data_path = data_path
         self.data = None
         self.is_graph = is_graph
+        self.lock = threading.Lock()  # 将lock作为实例变量
         if data_path:
             self.load_data()
 
@@ -143,14 +146,20 @@ class MemoryADD:
                     raise e
 
     def add_memories_for_speaker(self, speaker, messages, timestamp, desc):
+        error_list = []
         for i in tqdm(range(0, len(messages)), desc=desc):
             try:
                 message = messages[i]
-                self.add_memory(speaker, [message], metadata={"timestamp": timestamp})
+                with self.lock:
+                    self.add_memory(speaker, [message], metadata={"timestamp": timestamp})
             except Exception as e:
                 print(f"无法添加消息 {i}：{str(e)}")
-                traceback.print_exc()  # 打印详细的异常堆栈信息
-                continue
+                error_list.append({"index": i, "message": message, "error": str(e)})
+                # 不 raise，让流程继续
+        if error_list:
+            print("以下消息添加失败：")
+            for err in error_list:
+                print(err)
 
     def process_conversation(self, item, idx):
         conversation = item['conversation']
@@ -238,11 +247,11 @@ class MemoryADD:
             # add memories for the two users on different threads
             thread_a = threading.Thread(
                 target=self.add_memories_for_speaker,
-                args=(speaker_a_user_id, messages, timestamp, "Adding Memories for user")
+                args=(speaker_a_user_id, messages, timestamp, "Adding Memories for user with multiple threads")
             )
             thread_b = threading.Thread(
                 target=self.add_memories_for_speaker,
-                args=(speaker_b_user_id, messages_reverse, timestamp, "Adding Memories for assistant")
+                args=(speaker_b_user_id, messages_reverse, timestamp, "Adding Memories for assistant with multiple threads")
             )
 
             thread_a.start()
